@@ -21,10 +21,19 @@
 # 寄存器:
 
 # 文件标记:
-'0  2  5  ~/gittest/readme.txt
-'1  2  5  ~/readme.txt
+'0  6  0  ~/gittest/a.c
+'1  2  5  ~/gittest/readme.txt
+'2  2  5  ~/readme.txt
 
 # 跳转列表 (从新到旧):
+-'  6  0  ~/gittest/a.c
+-'  1  0  ~/gittest/a.c
+-'  2  5  ~/gittest/readme.txt
+-'  1  0  ~/gittest/readme.txt
+-'  2  5  ~/readme.txt
+-'  1  0  ~/readme.txt
+-'  2  5  ~/readme.txt
+-'  1  0  ~/readme.txt
 -'  2  5  ~/gittest/readme.txt
 -'  1  0  ~/gittest/readme.txt
 -'  2  5  ~/readme.txt
@@ -33,6 +42,12 @@
 -'  1  0  ~/readme.txt
 
 # 文件内的标记历史记录 (从新到旧):
+
+> ~/gittest/a.c
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
 
 > ~/gittest/readme.txt
 	"	2	5
